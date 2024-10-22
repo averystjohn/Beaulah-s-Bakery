@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: whitesmoke;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(assets/bread.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  margin-top: -50px;
+}
+
+.hero__blurb {
+  color: white;
+  margin: -10px 470px 0 470px;
+  text-align: center;
+}
+
+.hero__title {
+  font-family: "Leckerli One", cursive;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 60px 0 10px 0;
+}
+
+.hero__subtitle {
+  font-weight: 600;
+  font-size: 25px;
+  color: lightpink;
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.about {
+  text-align: center;
+  padding: 20px;
+}
+
+.about__title {
+  font-size: 40px;
+}
+
+.about__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.about__column {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.about__subheading {
+  padding: 10px;
+  background-color: lightpink;
+  border: black solid;
+  border-radius: 50px;
+}
+
+.about__paragraph {
+  background-color: #E7D4B5;
+  padding: 20px;
+  margin-top: 10px;
+  border: black solid;
+  border-radius: 20px;
+}
